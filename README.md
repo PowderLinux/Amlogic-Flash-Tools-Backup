@@ -19,11 +19,11 @@ The reason I am hosting these is because I dont remember the repos that I got th
 ### Versions:
 
 
-#### **aml-flash-tool-s905x4.zip**
+#### **S905X4 tool (aml-flash-tool-s905x4.zip) -**
 
 Tool name = 'adnl_flash_tool.sh'. Use this version for newer boards. Ex: S905X4, S905Y4, etc..
 
-#### **aml-flash-tool-s905x3.zip**
+#### **S905X3 tool (aml-flash-tool-s905x3.zip) -**
 
 Tool name = 'aml-flash-tool.sh'. Use this version for older boards. Ex: S905X3, S912, etc..
 
