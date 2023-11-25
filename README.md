@@ -1,11 +1,14 @@
 # Amlogic-Flash-Tools-Backup
 A repo for hosting a backup of Amlogic flash tools for Linux
 
+
 ##
+
 
 ### About:
 
-Tools for Linux that can be used to flash stock firmware or custom roms on Amlogic brand Android tv boxes.
+
+Linux tools for flashing stock firmware or custom roms on Amlogic brand Android tv boxes.
 
 I found these on GitHub awhile back.. I did not make them- the only thing I made is the install guide..
 
@@ -15,17 +18,19 @@ The reason I am hosting these is because I dont remember the repos that I got th
 
 ### Versions:
 
+
 #### **aml-flash-tool-s905x4.zip**
 
-Use this version for newer boards. Ex: S905X4, S905Y4, etc.. Tool name = 'adnl_flash_tool.sh'
+Tool name = 'adnl_flash_tool.sh'. Use this version for newer boards. Ex: S905X4, S905Y4, etc..
 
 #### **aml-flash-tool-s905x3.zip**
 
-Use this version for older boards. Ex: S905X3, S912, etc.. Tool name = 'aml-flash-tool.sh'
+Tool name = 'aml-flash-tool.sh'. Use this version for older boards. Ex: S905X3, S912, etc..
 
 ##
 
 ### How To Use:
+
 
 1. Prepare your device by following the install guide below
  
@@ -39,18 +44,20 @@ Use this version for older boards. Ex: S905X3, S912, etc.. Tool name = 'aml-flas
 
 ### Run/Flash Examples: 
 
-#### S905X3 tool -
-```
-./aml-flash-tool.sh /path/to/your/firmware/firmware.img
-```
+
 #### S905X4 tool -
 ```
 ./adnl_flash_tool.sh -p /path/to/your/firmware/firmware.img
+```
+#### S905X3 tool -
+```
+./aml-flash-tool.sh /path/to/your/firmware/firmware.img
 ```
 
 ##
 
 ### Install Guide:
+
 
 #### Install dependencies -
 ```
@@ -96,6 +103,7 @@ If you see both of those, then you are good to go and can proceed to run the fla
 
 ### NOTES:
 
+
 * The install guide applys to both S905X4 and S905X3 versions.
 
 * Theres an INSTALL.sh script included that might work if you are on Ubuntu.. It didnt work when I tried it on Debian 11. The guide above should work fine on either one tho- you just might need to adjust the dependencies names.
@@ -105,6 +113,7 @@ If you see both of those, then you are good to go and can proceed to run the fla
 ##
 
 ### Credits:
+
 
 Not me, and not trying to steal anyones work.. If you are one of the orignal devs, reach out and I will add you here if you want.
 
