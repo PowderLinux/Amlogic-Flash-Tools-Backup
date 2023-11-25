@@ -9,17 +9,17 @@ Tools for Linux that can be used to flash stock firmware or custom roms on Amlog
 
 I found these on GitHub awhile back.. I did not make them- the only thing I made is the install guide..
 
-The reason I am hosting these is because I dont remember the repo that I got them from.. (2 seperate repos)
+The reason I am hosting these is because I dont remember the repos that I got them from.. (2 seperate repos)
 
 ##
 
 ### Versions:
 
-#### S905X4 - (aml-flash-tool-s905x4.zip)
+#### aml-flash-tool-s905x4.zip
 
 Use this version for newer boards. Ex: S905X4, S905Y4, etc.. Tool name = 'adnl_flash_tool.sh'
 
-#### S905X3 - (aml-flash-tool-s905x3.zip)
+#### aml-flash-tool-s905x3.zip
 
 Use this version for older boards. Ex: S905X3, S912, etc.. Tool name = 'aml-flash-tool.sh'
 
@@ -102,4 +102,10 @@ If you see both of those, then you are good to go and can proceed to run the fla
 
 * The aml_flash_tool.sh included with the S905X4 build is supposed work with older boards, but I had issues with it trying to flash a S905X3 board. The seperate S905X3 build version works fine tho.
   
+##
+
+### Credits:
+
+Not me, and not trying to steal anyones work.. If you are one of the orignal devs, reach out and I will add you here if you want.
+
 ##
